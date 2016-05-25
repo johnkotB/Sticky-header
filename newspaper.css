@@ -19,26 +19,8 @@ header {
 
 .head[data-header-two="two"] {
     color: #555555;
-    position: -webkit-sticky;
+    /*position: -webkit-sticky;*/
 }
-
-    .head[data-header-two="two"]:before {
-        border-top: 1px solid #555555;
-        content: '';
-        width: 780px;
-        height: 13px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .head[data-header-two="two"]:after {
-        border-bottom: 1px solid #555555;
-        content: '';
-        width: 780px;
-        height: 13px;
-        display: block;
-        margin: 0 auto;
-    }
 
 p {
     margin-top: 0;
@@ -234,7 +216,7 @@ p {
     background-color: #E4E4E4;
     width: 100%;
     z-index: 1;
-    transition: all ease-out .2s;
+    transition: ease-out .5s;
 }
 
 
@@ -264,10 +246,16 @@ p {
             border-bottom: 1px solid #2f2f2f;
         }
 
-    header {
-        max-width: 320px;
+    .head[data-header="one"],
+    .head[data-header-two="two"] {
+        max-width: 100%;
         font-size: 60px;
         line-height: 54px;
         overflow: hidden;
+    }
+
+    header {
+        font-size: 60px;
+        line-height: 54px;
     }
 }

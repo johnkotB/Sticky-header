@@ -216,10 +216,10 @@ p {
     background-color: #E4E4E4;
     width: 100%;
     z-index: 1;
-    transition: ease-out .5s;
+    /*transition: ease-out .5s;
     -webkit-transition: ease-out .5s;
     -moz-transition: ease-out .5s;
-    -o-transition: ease-out .5s;
+    -o-transition: ease-out .5s; */
 }
 
 

@@ -1,7 +1,5 @@
 ﻿$(document).ready(function () {
 
-    debugger;
-
     function stickyHeader(header, currentPos) {
         window.addEventListener('scroll', function (e) {
             var distanceY = window.pageYOffset || document.documentElement.scrollTop;
